@@ -1,0 +1,15 @@
+{
+  "dataset": "gsm8k/main",
+  "split": "test",
+  "seed": 43,
+  "base_model": "google/gemma-2b",
+  "adapter_dir": "/kaggle/input/gsm8k-swce-seed43/final_adapter",
+  "decoding": {
+    "strategy": "greedy",
+    "do_sample": false,
+    "max_new_tokens": 128
+  },
+  "tokenizer_padding_side": "left",
+  "max_len": 1024,
+  "quantization": "fp16/bf16"
+}

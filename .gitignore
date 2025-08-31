@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+outputs/
+*.zip
+*.pt
+*.safetensors
+predictions*.json
+predictions*.csv

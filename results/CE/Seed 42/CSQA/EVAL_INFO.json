@@ -1,0 +1,15 @@
+{
+  "dataset": "tau/commonsense_qa",
+  "split": "validation",
+  "N": 1221,
+  "base_model": "google/gemma-2b",
+  "adapter_dir": "/kaggle/input/csqa-baseline-artifacts-zip/csqa/final_adapter",
+  "decoding": {
+    "strategy": "greedy",
+    "do_sample": false,
+    "max_new_tokens": 64
+  },
+  "seed": 42,
+  "max_len": 1024,
+  "quantization": "fp16/bf16"
+}
